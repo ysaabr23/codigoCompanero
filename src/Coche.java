@@ -28,6 +28,13 @@ public class Coche {
 		this.color = color;
 		this.precio = precio;
 	}
+	
+	public Coche(String marca, String modelo, int precio) {
+		super();
+		this.marca = marca;
+		this.modelo = modelo;
+		this.precio = precio;
+	}
 
 	public String getMatricula() {
 		return matricula;
